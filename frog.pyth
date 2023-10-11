@@ -1,0 +1,11 @@
+def maximum():
+  a=int(input("enter a no."))
+  b=int(input("enter a no."))
+  c=int(input("enter a no."))
+  if(a>=b and a>=c):
+    print(a)
+  elif(b>=c and b>=a):
+    print(b)
+  else:
+    print(c)
+maximum()
