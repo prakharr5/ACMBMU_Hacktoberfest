@@ -1,0 +1,33 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	cout<<syna<<endl; */
+	int num=0;
+	cout<<"enter num"<<endl;
+cin>>num;
+    for(int i =0;i<num;i++)
+	{
+		for(int j=0;j<num;j++)
+		{
+			while(count>0)
+	        {
+			if(j==3)
+			{
+				goto jump;
+				
+			}
+			cout<<"i = "<<i<<"j = "<<j<<endl;
+			count--;
+		}
+		}
+	}}
+	while(num<8)
+	{
+		if(num==4)
+		{
+			continue;
+		}
+		cout<<num++<<endl;
+	}}
