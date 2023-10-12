@@ -1,0 +1,46 @@
+#include <iostream>
+#include <cmath>
+#include <bits/stdc++.h>
+#include <string>
+using namespace std;
+int main()
+{
+string str="welcome home";
+	int count=0, count_co=0;
+	for(int i=0; str[i]!='\0'; i++)
+	{
+		if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u')
+		{
+		
+		count++;
+		}
+		else if(str[i]>=97 && str[i]<=122)
+		{
+			count_co++;
+		}
+		else
+		{ cout<<""<<endl;
+		}
+		
+	}
+	string news="" ;
+	char ch ='';
+	
+		for(int i=0; str[i]!='\0'; i++)
+	{
+		if(str[i]==32)
+		{
+			news =news +str[i];
+		}
+		else
+		{
+		
+		char ch =str[i];
+		ch = ch -32;
+	    news=news+ch;
+	}
+	}
+	cout<<news<<endl;
+	cout<<count<<endl;
+	cout<<count_co<<endl;
+}
