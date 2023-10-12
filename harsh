@@ -1,0 +1,22 @@
+#include <cmath>
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main()
+
+{
+	float a, b;
+	cout << "enter a:" << endl;
+	cin >> a;
+	cout << "enter b:" << endl;
+	cin >> b;
+
+	cout << "square of a: " << a * a << endl;
+	cout << "square of b: " << b * b << endl;
+	float c = (a * a) + (b * b);
+	cout << "sum of squares of a and b (ANSWER) : " << c << endl;
+
+	cout << "square root of Answer: " << fixed << setprecision(12) << sqrt(c) << endl;
+
+	return (0);
+}
