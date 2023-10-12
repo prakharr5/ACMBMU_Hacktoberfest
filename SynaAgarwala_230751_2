@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int sum=0;
+	cout<<"enter array size"<<endl;
+	int size=0;
+	cin>>size;
+	int arr[size];
+	int *p;
+	
+	p = &arr[0];
+	for(int i=0;i<size;i++)
+	{
+		cin>>p[i];
+	}
+	for(int i=0;i<size;i++)
+	{
+		cout<<*(p)<<endl;
+		p++;
+	}
+	
+	for(int i=0;i<size;i++)
+	{
+		sum= sum+(*(p));
+		cout<<sum;
+		p++;
+		
+	}
+	cout<<"sum = "<<sum<<endl;
+}
